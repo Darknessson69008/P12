@@ -7,7 +7,7 @@ html {
 }
 
 body {
-  font-family: "Comfortaa", cursive;
+  font-family: "Comfortaa";
   font-size: 1.2rem;
 }
 body .return-home-icon {
@@ -37,14 +37,14 @@ section {
 
 h1 {
   text-align: center;
-  font-family: "Caveat", cursive;
+  font-family: "Verdana";
   font-size: 3.5em;
   letter-spacing: 0.3em;
 }
 
 h2 {
   font-size: 2.8em;
-  font-family: "caveat", cursive;
+  font-family: "Verdana";
   font-weight: 100;
 }
 
@@ -67,7 +67,8 @@ header .parallax_img {
   left: 0px;
   width: 100%;
   height: 102%;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .navbar {
@@ -96,7 +97,7 @@ header .parallax_img {
   transform: scaleX(1.3);
 }
 .navbar .logo {
-  font-family: "Caveat", cursive;
+  font-family: "Verdana";
   font-size: 2.5rem;
   margin-left: 30px;
   margin-bottom: 5px;
@@ -236,7 +237,8 @@ header .parallax_img {
   box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.3);
   height: 75%;
   width: 45%;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   transform: translateX(-7em);
   opacity: 0;
   transition: all 0.7s ease-in-out;
@@ -315,7 +317,8 @@ header .parallax_img {
   left: 0px;
   width: 100%;
   height: 200%;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .skills .skills_content {
   width: 45%;
@@ -424,7 +427,7 @@ header .parallax_img {
   margin: 80px 0px;
 }
 .projects h3 {
-  font-family: "Caveat", cursive;
+  font-family: "Verdana";
   font-size: 2.1rem;
   letter-spacing: 0.3em;
 }
@@ -495,7 +498,8 @@ header .parallax_img {
 .card_frontside .card_img img {
   width: 90%;
   aspect-ratio: 5/2;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 }
 
@@ -553,7 +557,7 @@ header .parallax_img {
 }
 .card_backside_content .card_backside_buttons button {
   cursor: pointer;
-  font-family: "caveat", cursive;
+  font-family: "Verdana";
   font-size: 1.1em;
   padding: 7px 15px;
   border: none;
@@ -688,6 +692,4 @@ header .parallax_img {
   .contact_content .contact_link:hover .contact_line {
     transform: scaleY(1.4);
   }
-}
-
-/*# sourceMappingURL=index.css.map */
+}/*# sourceMappingURL=index.css.map */
