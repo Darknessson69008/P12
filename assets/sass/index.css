@@ -110,7 +110,7 @@ header .parallax_img {
 .navbar_menu {
   z-index: 3;
   display: flex;
-  gap: 100px;
+  gap: 25px;
 }
 .navbar_menu .navbar_menu_link {
   display: flex;
@@ -160,13 +160,13 @@ header .parallax_img {
 
 @media screen and (max-width: 1083px) {
   .navbar .navbar_elements .navbar_menu {
-    gap: 25px;
+    gap: 5px;
   }
   .title h1 {
     width: 74%;
   }
 }
-@media screen and (max-width: 790px) {
+@media screen and (max-width: 1083px) {
   header .parallax_img {
     height: 112%;
   }
